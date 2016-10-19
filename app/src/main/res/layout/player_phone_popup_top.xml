@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_top"
+    android:layout_width="fill_parent"
+   
+ 
+   
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible" 
+    
+    >
+
+      <ListView
+          
+          android:id="@+id/gplay_list"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:divider="@null"
+          android:listSelector="@drawable/list_view_selector" />
+    
+  <!--   <Button
+        android:id="@+id/topBar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25.0dip"
+        android:background="@drawable/player_bt_phone_back"
+        android:paddingLeft="5.0dip"
+        android:text="@string/player_bt_return"
+        android:textColor="#ffffffff"
+        android:textSize="12.0sp" />
+  
+    <LinearLayout 
+           android:layout_alignParentRight="true"
+            android:layout_marginRight="25.0dip"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+        
+        >    <Button
+        android:id="@+id/topBar_list_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25.0dip"
+        android:background="@drawable/player_bt_phone_vlist"
+        android:textColor="#ffffffff"
+        android:textSize="12.0sp"
+        android:visibility="visible" />
+        
+           <ListView
+            android:id="@+id/TOPdmr_list"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@color/bg_wx_middle"
+            android:divider="@null"
+            android:listSelector="@drawable/list_view_selector" />
+        
+        </LinearLayout>
+        
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="#ffdadada"
+        android:textSize="16.0sp" /> -->
+
+</RelativeLayout>

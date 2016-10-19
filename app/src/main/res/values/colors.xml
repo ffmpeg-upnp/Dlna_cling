@@ -2,13 +2,11 @@
 <resources>
     <color name="txt_blue">#ff007cb0</color>
     <color name="txt_gray">#ff575756</color>
-    <color name="white">#ffffffff</color>
     <color name="black">#ff000000</color>
     <color name="txt_orange">#ffeb6100</color>
     <color name="bg_gray">#ffe3e3e7</color>
     <color name="orange">#ffe84e0e</color>
     <color name="transparent">#ff000000</color>
-    <color name="bg">#fff39200</color>
     <color name="lightblue">#ff007aa2</color>
     <color name="lightorange">#ffacba00</color>
     <color name="red">#ffff0000</color>
@@ -47,4 +45,59 @@
     <color name="listview_bottom_line">#ffbcbcbc</color>
     <color name="listview_top_line_old">#ffe8e8e8</color>
     <color name="listview_bottom_line_old">#ff9f9e9e</color>
+
+
+    <color name="white">#fff</color>
+    <color name="login_text_title">#616161</color>
+    <color name="login_text_hint">#A3A3A3</color>
+    <color name="login_text_auto">#707070</color>
+    <color name="login_text_forget">#0485FE</color>
+    <color name="login_text_third">#7C7C7C</color>
+    <color name="login_line">#A3A3A3</color>
+    <color name="find_password_title">#3E4244</color>
+    <color name="bg">#E6E9EC</color>
+    <color name="color_2D">#FF949596</color>
+    <color name="color_C5C5C5">#FFC5C5C5</color>
+    <color name="color_AA">#FFAAAAAA</color>
+    <color name="color_red">#FFcc2900</color>
+
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#00ff00</color>
+    <color name="viewfinder_mask">#B0000000</color>
+    <color name="viewfinder_mask2">#C0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#30000000</color>
+    <color name="app_red">#b12704</color>
+
+    <color name="bg_btn">#b02502</color>
+    <color name="list_brand">#c7c7c7</color>
+    <color name="pay_result_text">#4d4d4d</color>
+    <color name="bg_window">#ebebeb</color>
+    <color name="text_black_2">#282828</color>
+    <color name="goods_detail_price">#b12704</color>
+
+    <color name="white_80per">#ccffffff</color>
+    <color name="login_text">@color/goods_detail_price</color>
+    <color name="login_gray">#888888</color>
+    <color name="login_text_pre">#7c1b03</color>
+
+    <color name="withdraw_cancel">#f5f5f5</color>
+    <color name="withdraw_cancel_press">#989898</color>
+
+    <color name="select_city_text_nor">#444444</color>
+    <color name="empty_text">#bfbaba</color>
+
+    <color name="bg_main_toolbar">#282a2c</color>
+    <color name="bg_status">#202223</color>
+
+    <color name="map_btn">#99000000</color>
+    <color name="cardcard_select">#b12704</color>
+    <color name="cardcard_noselect">#ffffffff</color>
+    <color name="cardcard_select_text">#333333</color>
+
+    <color name="gift_text">#2f2f2f</color>
 </resources>

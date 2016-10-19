@@ -2,22 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wsd.sun.myapplication">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-
-    
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -26,7 +10,8 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <application
+    <!--
+        <application
         android:name="com.uata.application.BaseApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -72,7 +57,7 @@
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
-        <!-- android:launchMode="singleTop" -->
+        &lt;!&ndash; android:launchMode="singleTop" &ndash;&gt;
         <activity
             android:name="com.uata.dmr.GPlayer"
             android:configChanges="keyboardHidden|orientation"
@@ -156,5 +141,26 @@
             android:name="com.uata.dmr.BigBitMap"
             android:label="@string/title_activity_big_bit_map" >
         </activity>
+    -->
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.media.ImageDisplay"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.media.textActivity"></activity>
+        <activity
+            android:name=".ui.activity.dmr.BigBitMap"
+            android:label="@string/title_activity_big_bit_map" >
+        </activity>
+    </application>
 
 </manifest>
